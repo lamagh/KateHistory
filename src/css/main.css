@@ -1,0 +1,682 @@
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+
+}
+
+.fw-normal{
+  font-family: '29LTBukra';
+  src: url('/src/fonts/29ltbukra/29ltbukraregular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fw-bold{
+  font-family: '29LTBukra';
+  src: url('/src/fonts/29ltbukra/29ltbukrabold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.start{
+  scroll-snap-type: y mandatory;
+  overflow-x:hidden;
+}
+
+section, layer{
+  scroll-snap-align: center;
+  scroll-snap-stop: normal;
+}
+
+.screen_section{
+    display: block;
+    height:100%;
+    width:100%;
+    padding: 60px;
+    padding-left: 120px;
+    box-sizing:border-box;
+}
+
+.intro_bg{
+    background-color: #000000;
+}
+.spacer {
+    height: 60px;
+  }
+  
+  .welcome {
+    font-size: 64px;
+    font-weight: normal;
+  }
+  
+  .welcome_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+
+.oneSection{
+  background-image: url(../images/one_main.png);
+}
+.oneIntro{
+  background-image: url(../images/one_intro.png);
+}
+
+.twoIntro{
+  background-image: url(../images/two_intro.png);
+}
+
+.twoSection{
+  background-image: url(../images/two_main.png);
+}
+
+.threeIntro{
+background-image: url(../images/three_intro.png);
+}
+.threeSection{
+  background-image: url(../images/three_bg.png);
+}
+.fourIntro{
+  background-image: url(../images/four_intro.png);
+}
+.fourSection{
+  background-image: url(../images/four_bg.png);
+}
+.fiveIntro{
+  background-image: url(../images/five_intro.png);
+}
+.fiveSection{
+  background-image: url(../images/five_bg.png);
+}
+.sixIntro{
+  background-image: url(../images/six_intro.png);
+}
+.sixSection{
+  background-image: url(../images/six_bg.png);
+}
+.sevenSection{
+  background-image: url(../images/seven_bg.png);
+}
+.eightSection{
+  background-image: url(../images/eight_bg.png);
+}
+.nineSection{
+  background-image: url(../images/nine_intro.png);
+}
+.tenSection{
+  background-image: url(../images/ten_bg.png);
+}
+.elevenIntro{
+  background-image: url(../images/eleven_intro.png);
+}
+.elevenSection{
+  background-image: url(../images/eleven_bg.png);
+}
+.twelveIntro{
+  background-image: url(../images/twelve_intro.png);
+}
+.twelveSection{
+  background-image: url(../images/twelve_bg.png);
+}
+.thirteenIntro{
+  background-image: url(../images/thirteen_intro.png);
+}
+.thirteenSection{
+  background-image: url(../images/thirteen_bg.png);
+}
+.fourteenSection{
+  background-image: url(../images/fourteen_bg.png);
+}
+.fifteenIntro{
+  background-image: url(../images/fifteen_intro.png);
+}
+.fifteenSection{
+  background-image: url(../images/fifteen_bg.png);
+}
+.sixteenIntro{
+  background-image: url(../images/sixteen_intro.png);
+}
+.sixteenSection{
+  background-image: url(../images/sixteen_bg.png);
+}
+.seventeenIntro{
+  background-image: url(../images/seventeen_intro.png);
+}
+.seventeenSection{
+  background-image: url(../images/seventeen_bg.png);
+}
+.eighteenIntro{
+  background-image: url(../images/eighteen_intro.png);
+}
+.eighteenSection{
+  background-image: url(../images/eighteen_bg.png);
+}
+.nineteenIntro{
+  background-image: url(../images/nineteen_intro.png);
+}
+.nineteenSection{
+  background-image: url(../images/nineteen_bg.png);
+}
+.twentyIntro{
+  background-image: url(../images/twenty_intro.png);
+}
+.twentySection{
+  background-image: url(../images/twenty_bg.png);
+}
+
+
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  align-items: flex-start;
+}
+  .one_wrapper {
+    background-image: url(../images/one_into.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 176vh;
+    flex-direction: column;
+  }
+
+  .two_wrapper {
+    background-image: url(../images/two_main.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 126vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  .three_wrapper {
+    background-image: url(../images/three_bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 136vh;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .four_wrapper {
+    background-image: url(../images/four_bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 166vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+  .four_wrapper img{
+    margin-bottom: -173px;
+  }
+
+  .five_wrapper {
+    background-image: url(../images/five_bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 109vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+  .six_wrapper {
+    background-image: url(../images/six_bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 123vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+  .seven_wrapper {
+    background-image: url(../images/seven_bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 116vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .eight_wrapper {
+    background-image: url(../images/eight_bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 133vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  .nine_wrapper {
+    background-image: url(../images/nine_intro.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: center;
+    height: 107vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+  .ten_wrapper {
+    background-image: url(../images/ten_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 116vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+  .eleven_wrapper {
+    background-image: url(../images/eleven_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+  .twelve_wrapper {
+    background-image: url(../images/twelve_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  .thirteen_wrapper {
+    background-image: url(../images/thirteen_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  .fourteen_wrapper {
+    background-image: url(../images/fourteen_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  .fifteen_wrapper {
+    background-image: url(../images/fifteen_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .sixteen_wrapper {
+    background-image: url(../images/sixteen_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .seventeen_wrapper {
+    background-image: url(../images/seventeen_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .eighteen_wrapper {
+    background-image: url(../images/eighteen_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .nineteen_wrapper {
+    background-image: url(../images/nineteen_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .twenty_wrapper {
+    background-image: url(../images/twenty_bg.png);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    height: 106vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .two_bg{
+    background-image: url(../images/two_intro.png);
+    height: 117vh;
+    justify-content: center;
+    background-size: cover;
+  }
+  .three_bg{
+    background-image: url(../images/three_intro.png);
+    height: 126vh;
+    justify-content: center;
+  }
+
+  .four_bg{
+    background-image: url(../images/four_intro.png);
+    height: 111vh;
+    justify-content: center;
+  }
+  .five_bg{
+      background-image: url(../images/five_intro.png);
+      height: 112vh;
+      justify-content: center;
+  }
+  .six_bg{
+    background-image: url(../images/six_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+  .eleven_bg{
+    background-image: url(../images/eleven_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+  .twelve_bg{
+    background-image: url(../images/twelve_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+
+  .thirteen_bg{
+    background-image: url(../images/thirteen_intro.png);
+    height: 121vh;
+    justify-content: flex-start;
+    background-size: cover;
+  }
+
+  .fifteen_bg{
+    background-image: url(../images/fifteen_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+
+  .sixteen_bg{
+    background-image: url(../images/sixteen_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+
+  .seventeen_bg{
+    background-image: url(../images/seventeen_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+
+  .eighteen_bg{
+    background-image: url(../images/eighteen_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+
+  .nineteen_bg{
+    background-image: url(../images/nineteen_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+
+  .twenty_bg{
+    background-image: url(../images/twenty_intro.png);
+    height: 121vh;
+    justify-content: center;
+    background-size: cover;
+  }
+
+
+
+  .intro-one{
+    margin-top: 240px;
+    margin-bottom: 179px;
+  }
+
+  .tab{
+    height: 70px;
+    width: 70px;
+    font-size: 31px;
+  }
+  .tab_button{
+    padding: 0 10%;
+  }
+  .tab-line{
+    height: 220px;
+    margin-left: 12%;
+  }
+  .btn-primary{
+    background-color: #0FA06E !important;
+    border-color: #0FA06E !important;
+  }
+
+
+  .letter_collapse{
+    padding: 11% 8% 4% 8%;
+  }
+
+  .law_banner {
+    background: rgba(255, 255, 255, 0.68);
+    padding: 2rem;
+    width: 32%;
+    border-radius: 0 80px 80px 0;
+    /* margin-left: 50px; */
+    position: absolute;
+    bottom: 130px
+    }
+.markBtn{
+  position: absolute;
+    top: 20%;
+    left: 25%;
+    z-index: 1;
+}
+
+
+  .secondary-btn{
+    background-color: #0FA06E !important;
+    border-color: #0FA06E !important;
+  }
+
+.blur {
+    z-index: 1;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+      background-color: #000;
+}
+.modalblur {
+    background-color: rgba(0, 0, 0, 0.20);
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 0.6);
+    
+}
+
+.yearWrapper{
+  display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    opacity: 0;
+}
+
+.year_menu{
+  display: flex;
+  margin: 0px;
+  padding-left: 24px;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.49) 0%, rgba(0, 0, 0, 0.00) 69.96%);
+  -webkit-backdrop-filter: blur(8px);
+  flex-direction: column;
+  /* width: 10%; */
+  height: 100%;
+  /* min-width: 100vh; */
+  /* opacity: 0.3; */
+  position: fixed;
+  justify-content: center;
+}
+
+
+.bar_ul{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding-left: 24px;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.49) 0%, rgba(0, 0, 0, 0.00) 69.96%);
+  -webkit-backdrop-filter: blur(8px);
+  flex-direction: column;
+  width: 16%;
+  align-content: flex-end;
+  height:100%;
+}
+
+.yearWrapper:hover{
+  opacity: 1;
+}
+
+.year_li{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  color: #fff;
+  padding: 5px 0;
+}
+
+
+.year_li span{
+  opacity: 0;
+}
+
+
+.year_li span:focus{
+  opacity: 1;
+}
+
+.year_li:hover span{
+  opacity: 1;
+}
+
+
+.year_bar_long{
+border-radius: 31px 0px 0px 31px;
+background: #FFF;
+height: 20px;
+width: 100px;
+margin-left: 10px;
+}
+
+.year_bar_long:focus{
+    background-color: #0FA06E !important;
+    width: 120px;
+}
+.year_li:hover .year_bar_long{
+  background-color: #0FA06E !important;
+  width: 120px;
+}
+
+.year_bar_short{
+  border-radius: 31px 0px 0px 31px;
+  background: #FFF;
+  height: 20px;
+  width: 70px;
+  margin-left: 10px;
+  }
+
+.year_bar_short:focus{
+    background-color: #0FA06E !important;
+    width: 90px;
+}
+.year_li:hover .year_bar_short{
+  background-color: #0FA06E !important;
+  width: 100px;
+}
+
+.imp_btn{
+  opacity: 0.3;
+}
+
+.imp_btn:hover{
+opacity: 1;
+}
+
+@media (min-width: 992px){
+.modal-lg, .modal-xl {
+    --bs-modal-width: 624px !important;
+}
+
+}
